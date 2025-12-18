@@ -77,6 +77,12 @@ map $http_user_agent $block_ai_bot {
 	~*VelenPublicWebCrawler	1;
 	~*Webzio-Extended	1;
 	~*YouBot		1;
+    ~*facebookexternalhit 1;
+    ~*facebookcatalog 1;
+    ~*meta-webindexer 1;
+    ~*meta-externalads 1;
+    ~*meta-externalagent 1;
+    ~*meta-externalfetcher 1;
 }
 
 }
